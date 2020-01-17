@@ -1,5 +1,5 @@
 $(document).ready(function) {
-  var intermediate = click("Are your usability skills intermediate?");
+  var intermediate = prompt("Are your usability skills intermediate?");
 
   if (intermediate)
     $("#C#").show();
@@ -9,7 +9,7 @@ $(document).ready(function) {
 });
 
 $(document).ready(function) {
-  var personal = click("Are you learning to code for personal use or professional opportunities?");
+  var personal = prompt("Are you learning to code for personal use or professional opportunities?");
   
   if (personal)
     $("#Ruby").show();
@@ -19,7 +19,7 @@ $(document).ready(function) {
 });
 
 $(document).ready(function) {
-  var yes = click("Do you have prior experience or knowledge with any languages?");
+  var yes = prompt("Do you have prior experience or knowledge with any languages?");
 
   if (yes)
   $("#")
