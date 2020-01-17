@@ -1,0 +1,12 @@
+.jumbotron {
+  color: #0d94a3;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.important {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #0d94a3;
+  text-align: left;
+}
