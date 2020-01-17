@@ -10,3 +10,13 @@
   color: #0d94a3;
   text-align: left;
 }
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.underline {
+  text-decoration: underline;
+}
+.form-group {
+  margin-left: 200px;
+  margin-right: 200px;
+}
