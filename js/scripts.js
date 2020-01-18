@@ -3,6 +3,7 @@ $(document).ready(function) {
 
   if (intermediate)
     $("#C#").show();
+    return C#;
 } else {
     $("#Ruby").show();
 }
@@ -13,6 +14,7 @@ $(document).ready(function) {
   
   if (personal)
     $("#Ruby").show();
+    return Ruby;
   } else {
     $(#"Javascript").show();
   }
@@ -23,6 +25,7 @@ $(document).ready(function) {
 
   if (yes)
     $("#C#").show();
+    return C#;
 } else {
     $("#Javascript").show();
 }
@@ -33,6 +36,7 @@ $(document).ready(function) {
 
   if (mobileGameApp)
     $("#Swift").show();
+    return Swift;
 } else {
     $("#Javascript").show();
 }
@@ -43,8 +47,12 @@ $(document).ready(function) {
 
   if (elegance)
     $("#Ruby").show();
+    return Ruby;
 } else {
     $("#C#").show();
 }
 });
-
+$(document).ready(function) {
+  var language = prompt("Which language should I learn first?");
+  return Ruby;
+});
