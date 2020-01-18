@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application was created for prospective coders to learn which coding language to learn first out of several including (but not limited to): Ruby, C#, Javascript, Python or Swift. The app is made to allow users to arrive at a series of questions about themselves and whether or not they have prior experiences with coding. There will be at least five survey questions and three language suggestions based off the answers in the survey. _
+_This application was created for prospective coders to learn which coding language to learn first out of several including (but not limited to): Ruby, C#, Javascript, Python or Swift. The app is made to allow users to arrive at a series of questions about themselves and whether or not they have prior experiences with coding. There will be at least five survey questions and three language suggestions based off the answers in the survey._
 
 ## Setup/Installation Requirements
 
@@ -18,9 +18,9 @@ _This application was created for prospective coders to learn which coding langu
 * _Read the survey questions_
 * _Answer the survey questions honestly_
 * _Select from the choices for a type in answer in box provided_
-* _Arrive at suggestions once five questions are answered_
+* _Scroll down to the bottom of the webpage and click 'Which language should I learn first?'_
+* _Arrive at suggestions once five questions are answered and click on question in jumbotron._
 
-_User should see questions clearly, answer to the best of their ability and choose from the provided drop down boxes._
 
 ## Known Bugs
 
