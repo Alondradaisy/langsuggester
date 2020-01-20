@@ -4,9 +4,9 @@ $(document).ready(function) {
   if (intermediate)
     $("#C#").show();
     return C#;
-} else {
+  } else {
     $("#Ruby").show();
-}
+  }
 });
 
 $(document).ready(function) {
@@ -16,7 +16,7 @@ $(document).ready(function) {
     $("#Ruby").show();
     return Ruby;
   } else {
-    $(#"Javascript").show();
+    $("#Javascript").show();
   }
 });
 
@@ -26,9 +26,9 @@ $(document).ready(function) {
   if (yes)
     $("#C#").show();
     return C#;
-} else {
+  } else {
     $("#Javascript").show();
-}
+  }
 });
 
 $(document).ready(function) {
@@ -37,22 +37,25 @@ $(document).ready(function) {
   if (mobileGameApp)
     $("#Swift").show();
     return Swift;
-} else {
+  } else {
     $("#Javascript").show();
-}
+  }
 });
 
 $(document).ready(function) {
-  var yes = prompt("Do you prefer elegance or functionality?");
+  var elegance = prompt("Do you prefer elegance or functionality?");
 
   if (elegance)
     $("#Ruby").show();
     return Ruby;
-} else {
+  } else {
     $("#C#").show();
-}
+  }
 });
+
+
 $(document).ready(function) {
   var language = prompt("Which language should I learn first?");
-  return Ruby;
+  
+  return ("#Ruby");
 });
